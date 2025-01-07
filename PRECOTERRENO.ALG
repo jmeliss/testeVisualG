@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 Algoritmo "Preï¿½oTerreno"
 // Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o]
 // Professor   : Antonio Carlos Nicolodi 
@@ -10,6 +11,20 @@ Var
     base, altura, perimetro, diagonal, area: real
 Inicio
 // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+=======
+Algoritmo "PreçoTerreno"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Melissa
+// Data atual  : 02/01/2025
+Var
+// Seção de Declarações das variáveis 
+   //largura, comprimento,MetroQuadrado, area, preco: real
+    base, altura, perimetro, diagonal, area: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+>>>>>>> Stashed changes
      //escreva ("Digite o valor da largura: ")
      //leia (largura)
      //escreva ("Digite o valor do comprimento: ")
@@ -19,6 +34,7 @@ Inicio
     // area <- largura * comprimento
      //preco <- area * MetroQuadrado
      //escreval ("Area do terreno = ", area:8:2)
+<<<<<<< Updated upstream
      //escreval ("Preï¿½o do terreno = ", preco:8:2)
       escreva ("Digite o valor da base: ")
       leia (base)
@@ -53,6 +69,9 @@ Inicio
      //preco <- area * MetroQuadrado
      //escreval ("Area do terreno = ", area:8:2)
      //escreval ("Preï¿½o do terreno = ", preco:8:2)
+=======
+     //escreval ("Preço do terreno = ", preco:8:2)
+>>>>>>> Stashed changes
       escreva ("Digite o valor da base: ")
       leia (base)
       escreva("Digite o valor da altura: ")
