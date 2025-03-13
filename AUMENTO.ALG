@@ -1,17 +1,9 @@
 Algoritmo "aumento"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : calcular aumento com base no salário
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 08/01/2025
+
 Var
-   // Seção de Declarações das variáveis
    salario, novoSal, aumento, porcent : real
-
-
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva ("Digite o valor do seu salário, r$: ")
+   escreva ("Digite o valor do seu salÃ¡rio, r$: ")
    leia (salario)
    se (salario > 1000) e (salario <= 3000) entao
       porcent <- 15
@@ -29,7 +21,7 @@ Inicio
    fimse
    novoSal <- salario * (1+ porcent/100)
    aumento <- novoSal - salario
-   escreval ("Novo salário R$: ", novoSal)
+   escreval ("Novo salÃ¡rio R$: ", novoSal)
    escreval ("Valor do aumento R$: ", aumento)
    escreval (" Porcentagem de aumento: ", porcent, "%")
 
