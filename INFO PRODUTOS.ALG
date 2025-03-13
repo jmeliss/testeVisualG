@@ -1,24 +1,15 @@
 Algoritmo "Info Produtos"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Jheniffer Melissa da Cruz Silva
-// Data atual  : 18/12/2024
+
 Var
-// Seção de Declarações das variáveis 
      _produto1 : caractere
      _produto2 :  caractere
      _valor1: real
      _valor2: real
      a: caractere
      b: inteiro
-     c: real
+     c: real  
 
-     
-     
-
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+Inicio 
   _produto1 <- "Monitor"
   _produto2 <- "Computador"
   _valor1 <- 790.0
