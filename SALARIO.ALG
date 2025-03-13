@@ -1,34 +1,12 @@
 Algoritmo "salario"
-<<<<<<< Updated upstream
-// Disciplina   : [Linguagem e LÔøΩgica de ProgramaÔøΩÔøΩo]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÔøΩÔøΩo   : Aqui vocÔøΩ descreve o que o programa faz! (funÔøΩÔøΩo)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
+
 Var
-// SeÔøΩÔøΩo de DeclaraÔøΩÔøΩes das variÔøΩveis 
-=======
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
-Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
->>>>>>> Stashed changes
    pessoa1, pessoa2: caractere
  ValorHora, salario1, salario2, horas,soma: real
 
 Inicio
-<<<<<<< Updated upstream
-// SeÔøΩÔøΩo de Comandos, procedimento, funÔøΩÔøΩes, operadores, etc... 
 
-      escreva ("Nome do funcionÔøΩrio(a): ")
-=======
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-
-      escreva ("Nome do funcion·rio(a): ")
->>>>>>> Stashed changes
+      escreva ("Nome do funcion√°rio(a): ")
       leia (pessoa1)
 escreva ("Digite a quantidade de horas trabalhadas: ")
       leia (horas)
@@ -36,63 +14,7 @@ escreva ("Digite a quantidade de horas trabalhadas: ")
       soma <- (salario1 + salario2)
       salario1 <- (ValorHora * horas)
       salario2 <- (ValorHora * horas)
-<<<<<<< Updated upstream
-      escreval (" O salÔøΩrio de ", pessoa1, " ÔøΩ ", salario1, " reais.")
-      
-       escreva ("Nome do funcionÔøΩrio(a): ")
-=======
-      escreval (" O sal·rio de ", pessoa1, " È ", salario1, " reais.")
-      
-       escreva ("Nome do funcion·rio(a): ")
->>>>>>> Stashed changes
-      leia (pessoa2)
-escreva ("Digite a quantidade de horas trabalhadas: ")
-      leia (horas)
-        ValorHora <- 90.00
-      soma <- (salario1 + salario2)
-      salario1 <- (ValorHora * horas)
-      salario2 <- (ValorHora * horas)
-<<<<<<< Updated upstream
-      escreval ("O salÔøΩrio de ", pessoa2, " ÔøΩ de ", salario2, " reais.")
-      escreval (" A soma dos salÔøΩrios ÔøΩ de: ", soma)
 
-Algoritmo "salario"
-// Disciplina   : [Linguagem e LÔøΩgica de ProgramaÔøΩÔøΩo]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÔøΩÔøΩo   : Aqui vocÔøΩ descreve o que o programa faz! (funÔøΩÔøΩo)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
-Var
-// SeÔøΩÔøΩo de DeclaraÔøΩÔøΩes das variÔøΩveis 
-   pessoa1, pessoa2: caractere
- ValorHora, salario1, salario2, horas,soma: real
-
-Inicio
-// SeÔøΩÔøΩo de Comandos, procedimento, funÔøΩÔøΩes, operadores, etc... 
-
-      escreva ("Nome do funcionÔøΩrio(a): ")
-      leia (pessoa1)
-escreva ("Digite a quantidade de horas trabalhadas: ")
-      leia (horas)
-        ValorHora <- 90.00
-      soma <- (salario1 + salario2)
-      salario1 <- (ValorHora * horas)
-      salario2 <- (ValorHora * horas)
-      escreval (" O salÔøΩrio de ", pessoa1, " ÔøΩ ", salario1, " reais.")
-      
-       escreva ("Nome do funcionÔøΩrio(a): ")
-      leia (pessoa2)
-escreva ("Digite a quantidade de horas trabalhadas: ")
-      leia (horas)
-        ValorHora <- 90.00
-      soma <- (salario1 + salario2)
-      salario1 <- (ValorHora * horas)
-      salario2 <- (ValorHora * horas)
-      escreval ("O salÔøΩrio de ", pessoa2, " ÔøΩ de ", salario2, " reais.")
-      escreval (" A soma dos salÔøΩrios ÔøΩ de: ", soma)
-=======
-      escreval ("O sal·rio de ", pessoa2, " È de ", salario2, " reais.")
-      escreval (" A soma dos sal·rios È de: ", soma)
->>>>>>> Stashed changes
+      escreval (" O sal√°rio de ", pessoa1, " √© ", salario1, " reais.")
 
 Fimalgoritmo
