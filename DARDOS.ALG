@@ -1,16 +1,11 @@
-Algoritmo "dardos"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   :  maior de tres
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 07/01/2025
+
 Var
-// Seção de Declarações das variáveis 
+
        distancia1, distancia2, distancia3, maior : inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-           escreval ("Digite as três distâncias: ")
+
+           escreval ("Digite as trÃªs distÃ¢ncias: ")
            leia (distancia1)
            leia (distancia2)
            leia (distancia3)
@@ -23,7 +18,7 @@ Inicio
             maior <- distancia3
             fimse
             fimse
-            escreval (" Maior distância = ", maior:4:2)
+            escreval (" Maior distÃ¢ncia = ", maior:4:2)
             
 
 Fimalgoritmo
