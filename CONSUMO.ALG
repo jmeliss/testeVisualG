@@ -1,51 +1,12 @@
-Algoritmo "consumo"
-<<<<<<< Updated upstream
-// Disciplina   : [Linguagem e LÔøΩgica de ProgramaÔøΩÔøΩo]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÔøΩÔøΩo   : Aqui vocÔøΩ descreve o que o programa faz! (funÔøΩÔøΩo)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
+
 Var
-// SeÔøΩÔøΩo de DeclaraÔøΩÔøΩes das variÔøΩveis 
+
      DistanciaP, CombustivelG, ConsMedio: real
 Inicio
-// SeÔøΩÔøΩo de Comandos, procedimento, funÔøΩÔøΩes, operadores, etc... 
-   escreva ("Qual distÔøΩncia percorrida no trajeto?")
+
+   escreva ("Qual dist√¢ncia percorrida no trajeto?")
    leia (DistanciaP)
-   escreva ("quantos litros de combustÔøΩvel foram gastos nesse trajeto?")
-   leia (CombustivelG)
-   ConsMedio <- ( DistanciaP / CombustivelG)
-   escreval ("Seu carro consumiu ", ConsMedio:5:3, "litros por KM!")
-   
-Algoritmo "consumo"
-// Disciplina   : [Linguagem e LÔøΩgica de ProgramaÔøΩÔøΩo]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÔøΩÔøΩo   : Aqui vocÔøΩ descreve o que o programa faz! (funÔøΩÔøΩo)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
-Var
-// SeÔøΩÔøΩo de DeclaraÔøΩÔøΩes das variÔøΩveis 
-     DistanciaP, CombustivelG, ConsMedio: real
-Inicio
-// SeÔøΩÔøΩo de Comandos, procedimento, funÔøΩÔøΩes, operadores, etc... 
-   escreva ("Qual distÔøΩncia percorrida no trajeto?")
-   leia (DistanciaP)
-   escreva ("quantos litros de combustÔøΩvel foram gastos nesse trajeto?")
-=======
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/01/2025
-Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
-     DistanciaP, CombustivelG, ConsMedio: real
-Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
-   escreva ("Qual dist‚ncia percorrida no trajeto?")
-   leia (DistanciaP)
-   escreva ("quantos litros de combustÌvel foram gastos nesse trajeto?")
->>>>>>> Stashed changes
+   escreva ("quantos litros de combust√≠vel foram gastos nesse trajeto?")
    leia (CombustivelG)
    ConsMedio <- ( DistanciaP / CombustivelG)
    escreval ("Seu carro consumiu ", ConsMedio:5:3, "litros por KM!")
